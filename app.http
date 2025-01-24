@@ -1,0 +1,58 @@
+POST http://localhost:3000/auth/register/
+Content-Type: application/json
+
+{
+    "name": "Vikas Gupta",
+    "email": "vikasgupta@gmail.com",
+    "password": "vikasgupta123",
+    "role": "regular"
+}
+
+###
+POST http://localhost:3000/auth/login/
+Content-Type: application/json
+
+{
+    "email": "jhon@gmail.com",
+    "password": "123456"
+}
+
+###
+GET http://localhost:3000/customers/?offset=0&limit=5&order=ASC&order_by=created_at&company=FutureTech Solutions&name=Jhon&phone=9998887777&email=anil.kumar@gmail.com
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibmFtZSI6Impob24iLCJlbWFpbCI6Impob25AZ21haWwuY29tIiwicm9sZSI6InJlZ3VsYXIiLCJpYXQiOjE3Mzc2MTI5NDR9.tAVuM0Oy0hKh5UigmkD2WCrwcMpws7UMVBPvmjYLRNI
+
+###
+GET http://localhost:3000/customers/5
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibmFtZSI6Impob24iLCJlbWFpbCI6Impob25AZ21haWwuY29tIiwicm9sZSI6InJlZ3VsYXIiLCJpYXQiOjE3Mzc2MTI5NDR9.tAVuM0Oy0hKh5UigmkD2WCrwcMpws7UMVBPvmjYLRNI
+
+###
+POST http://localhost:3000/customers/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibmFtZSI6Impob24iLCJlbWFpbCI6Impob25AZ21haWwuY29tIiwicm9sZSI6InJlZ3VsYXIiLCJpYXQiOjE3Mzc2MTI5NDR9.tAVuM0Oy0hKh5UigmkD2WCrwcMpws7UMVBPvmjYLRNI
+Content-Type: application/json
+
+{
+    "name": "Anjan Kumar",
+    "email": "anjan@gmail.com",
+    "phone": "9998887779",
+    "company": "Wishdom Peak Analytics",
+    "user_id": 1,
+    "created_at": "2025-01-23 10:55:00"
+}
+
+###
+PUT http://localhost:3000/customers/5
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibmFtZSI6Impob24iLCJlbWFpbCI6Impob25AZ21haWwuY29tIiwicm9sZSI6InJlZ3VsYXIiLCJpYXQiOjE3Mzc2NzcwODN9.IRV-Q20HwBqc_LEpKpsRZ65CgCEscB1qNxAFPTi154I
+Content-Type: application/json
+
+{
+  "id": 5,
+  "name": "Madhavi Kumar",
+  "email": "madhavi.kumar@gmail.com",
+  "phone": "9933445567",
+  "company": "Innovators Inc .",
+  "user_id": 8
+}
+
+###
+DELETE http://localhost:3000/customers/11
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibmFtZSI6Impob24iLCJlbWFpbCI6Impob25AZ21haWwuY29tIiwicm9sZSI6InJlZ3VsYXIiLCJpYXQiOjE3Mzc2NzcwODN9.IRV-Q20HwBqc_LEpKpsRZ65CgCEscB1qNxAFPTi154I
