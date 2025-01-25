@@ -200,22 +200,6 @@ Authorization: Bearer <JWT_Token>
 
 ---
 
-## Deployment
-
-You can deploy this API to cloud services like **Heroku**, **Vercel**, or any cloud platform that supports Node.js applications. For deploying on platforms like **Vercel**:
-
-1. Push your project to a GitHub repository.
-2. Link the repository to Vercel.
-3. Set up the necessary environment variables, if required (e.g., `MY_SECRET_KEY`).
-
----
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
 ## Contact
 
 Hemanth Pallapothu  
