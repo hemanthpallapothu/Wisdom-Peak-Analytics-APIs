@@ -29,6 +29,26 @@ This project is a **User Management API** built using **Node.js**, **Express**, 
 - **bcrypt**: Library to securely hash passwords.
 - **CORS**: Middleware to allow cross-origin requests.
 
+## Credentials
+Regular User Credentials
+
+```json
+
+{
+    "email": "jhon@gmail.com",
+    "password": "123456"
+}
+```
+Admin User Credentials
+```json
+{
+    "email": "arunkumar@gmail.com",
+    "password": "arunkumar@123"
+}
+
+```
+
+
 ## Project Setup
 
 ### 1. Clone the repository:
