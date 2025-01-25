@@ -122,11 +122,11 @@ Creates a new customer.
 #### Request Body:
 ```json
 {
-  "name": "string",
-  "email": "string",
-  "phone": "string",
-  "company": "string",
-  "user_id": "integer"
+    "name": "Anjan Kumar",
+    "email": "kumar@gmail.com",
+    "phone": "9998887799",
+    "company": "Wishdom Peak Analytics",
+    "user_id": 1,
 }
 ```
 
@@ -154,10 +154,12 @@ Updates an existing customer's details.
 #### Request Body:
 ```json
 {
-  "name": "string",
-  "email": "string",
-  "phone": "string",
-  "company": "string"
+  "id": 5,
+  "name": "Madhavi Kumar",
+  "email": "madhavi.kumar@gmail.com",
+  "phone": "9933445567",
+  "company": "Innovators.",
+  "user_id": 8
 }
 ```
 
