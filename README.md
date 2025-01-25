@@ -63,10 +63,10 @@ Registers a new user.
 #### Request Body:
 ```json
 {
-  "name": "string",
-  "email": "string",
-  "password": "string",
-  "role": "admin/regular"
+    "name": "Vikas Gupta",
+    "email": "vikasgupta@gmail.com",
+    "password": "vikasgupta123",
+    "role": "regular"
 }
 ```
 
@@ -84,8 +84,8 @@ Logs in an existing user and generates a JWT token.
 #### Request Body:
 ```json
 {
-  "email": "string",
-  "password": "string"
+    "email": "jhon@gmail.com",
+    "password": "123456"
 }
 ```
 
