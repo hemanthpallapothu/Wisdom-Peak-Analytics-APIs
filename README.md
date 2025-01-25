@@ -217,10 +217,3 @@ Authorization: Bearer <JWT_Token>
 
 - If a JWT token is invalid or expired, the server will return a `401 Unauthorized` status with the message `"Invalid JWT Token"`.
 - If any other error occurs during processing, the server will respond with a `500 Internal Server Error` status.
-
----
-
-## Contact
-
-Hemanth Pallapothu  
-[GitHub Profile](https://github.com/hemanthpallapothu)
